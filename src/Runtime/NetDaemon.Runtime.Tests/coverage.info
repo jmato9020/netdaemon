@@ -3205,7 +3205,7 @@ BRH:0
 FNF:2
 FNH:2
 end_of_record
-SF:C:\git\netdaemon\src\HassModel\NetDeamon.HassModel\Context.cs
+SF:C:\git\netdaemon\src\HassModel\NetDaemon.HassModel\Context.cs
 FN:10,System.String NetDaemon.HassModel.Context::get_Id()
 FNDA:0,System.String NetDaemon.HassModel.Context::get_Id()
 DA:11,0
@@ -3222,7 +3222,7 @@ BRH:0
 FNF:3
 FNH:0
 end_of_record
-SF:C:\git\netdaemon\src\HassModel\NetDeamon.HassModel\DependencyInjectionSetup.cs
+SF:C:\git\netdaemon\src\HassModel\NetDaemon.HassModel\DependencyInjectionSetup.cs
 FN:14,Microsoft.Extensions.Hosting.IHostBuilder NetDaemon.HassModel.DependencyInjectionSetup::UseAppScopedHaContext(Microsoft.Extensions.Hosting.IHostBuilder)
 FNDA:4,Microsoft.Extensions.Hosting.IHostBuilder NetDaemon.HassModel.DependencyInjectionSetup::UseAppScopedHaContext(Microsoft.Extensions.Hosting.IHostBuilder)
 DA:15,4
@@ -3252,7 +3252,7 @@ BRH:1
 FNF:2
 FNH:2
 end_of_record
-SF:C:\git\netdaemon\src\HassModel\NetDeamon.HassModel\Event.cs
+SF:C:\git\netdaemon\src\HassModel\NetDaemon.HassModel\Event.cs
 FN:11,System.Nullable`1<System.Text.Json.JsonElement> NetDaemon.HassModel.Event::get_DataElement()
 FNDA:0,System.Nullable`1<System.Text.Json.JsonElement> NetDaemon.HassModel.Event::get_DataElement()
 DA:12,0
@@ -3285,7 +3285,7 @@ BRH:0
 FNF:7
 FNH:0
 end_of_record
-SF:C:\git\netdaemon\src\HassModel\NetDeamon.HassModel\HaContextExtensions.cs
+SF:C:\git\netdaemon\src\HassModel\NetDaemon.HassModel\HaContextExtensions.cs
 FN:14,System.IObservable`1<NetDaemon.HassModel.Entities.StateChange> NetDaemon.HassModel.HaContextExtensions::StateChanges(NetDaemon.HassModel.IHaContext)
 FNDA:6,System.IObservable`1<NetDaemon.HassModel.Entities.StateChange> NetDaemon.HassModel.HaContextExtensions::StateChanges(NetDaemon.HassModel.IHaContext)
 DA:15,6
@@ -3313,7 +3313,7 @@ BRH:1
 FNF:3
 FNH:1
 end_of_record
-SF:C:\git\netdaemon\src\HassModel\NetDeamon.HassModel\ObservableExtensions.cs
+SF:C:\git\netdaemon\src\HassModel\NetDaemon.HassModel\ObservableExtensions.cs
 FN:13,System.IDisposable NetDaemon.HassModel.ObservableExtensions::SubscribeAsync(System.IObservable`1<T>,System.Func`2<T,System.Threading.Tasks.Task>,System.Action`1<System.Exception>)
 FNDA:0,System.IDisposable NetDaemon.HassModel.ObservableExtensions::SubscribeAsync(System.IObservable`1<T>,System.Func`2<T,System.Threading.Tasks.Task>,System.Action`1<System.Exception>)
 DA:14,0
@@ -3436,7 +3436,7 @@ BRH:0
 FNF:10
 FNH:0
 end_of_record
-SF:C:\git\netdaemon\src\HassModel\NetDeamon.HassModel\StateObservableExtensions.cs
+SF:C:\git\netdaemon\src\HassModel\NetDaemon.HassModel\StateObservableExtensions.cs
 FN:18,System.IObservable`1<NetDaemon.HassModel.Entities.StateChange> NetDaemon.HassModel.StateObservableExtensions::WhenStateIsFor(System.IObservable`1<NetDaemon.HassModel.Entities.StateChange>,System.Func`2<NetDaemon.HassModel.Entities.EntityState,System.Boolean>,System.TimeSpan,System.Reactive.Concurrency.IScheduler)
 FNDA:0,System.IObservable`1<NetDaemon.HassModel.Entities.StateChange> NetDaemon.HassModel.StateObservableExtensions::WhenStateIsFor(System.IObservable`1<NetDaemon.HassModel.Entities.StateChange>,System.Func`2<NetDaemon.HassModel.Entities.EntityState,System.Boolean>,System.TimeSpan,System.Reactive.Concurrency.IScheduler)
 DA:19,0
@@ -3465,7 +3465,7 @@ BRH:0
 FNF:2
 FNH:0
 end_of_record
-SF:C:\git\netdaemon\src\HassModel\NetDeamon.HassModel\Internal\AppScopedHaContextProvider.cs
+SF:C:\git\netdaemon\src\HassModel\NetDaemon.HassModel\Internal\AppScopedHaContextProvider.cs
 FN:46,NetDaemon.HassModel.Entities.EntityState NetDaemon.HassModel.Internal.AppScopedHaContextProvider::GetState(System.String)
 FNDA:0,NetDaemon.HassModel.Entities.EntityState NetDaemon.HassModel.Internal.AppScopedHaContextProvider::GetState(System.String)
 DA:47,0
@@ -3544,7 +3544,7 @@ BRH:3
 FNF:9
 FNH:4
 end_of_record
-SF:C:\git\netdaemon\src\HassModel\NetDeamon.HassModel\Internal\BackgroundTaskTracker.cs
+SF:C:\git\netdaemon\src\HassModel\NetDaemon.HassModel\Internal\BackgroundTaskTracker.cs
 FN:15,System.Void NetDaemon.HassModel.Internal.BackgroundTaskTracker::TrackBackgroundTask(System.Threading.Tasks.Task,System.String)
 FNDA:1,System.Void NetDaemon.HassModel.Internal.BackgroundTaskTracker::TrackBackgroundTask(System.Threading.Tasks.Task,System.String)
 DA:16,1
@@ -3592,7 +3592,7 @@ BRH:1
 FNF:4
 FNH:4
 end_of_record
-SF:C:\git\netdaemon\src\HassModel\NetDeamon.HassModel\Internal\CacheManager.cs
+SF:C:\git\netdaemon\src\HassModel\NetDaemon.HassModel\Internal\CacheManager.cs
 FN:9,System.Void NetDaemon.HassModel.Internal.CacheManager::.ctor(NetDaemon.HassModel.Internal.EntityAreaCache,NetDaemon.HassModel.Internal.EntityStateCache)
 FNDA:4,System.Void NetDaemon.HassModel.Internal.CacheManager::.ctor(NetDaemon.HassModel.Internal.EntityAreaCache,NetDaemon.HassModel.Internal.EntityStateCache)
 DA:10,4
@@ -3613,7 +3613,7 @@ BRH:0
 FNF:2
 FNH:2
 end_of_record
-SF:C:\git\netdaemon\src\HassModel\NetDeamon.HassModel\Internal\EntityAreaCache.cs
+SF:C:\git\netdaemon\src\HassModel\NetDaemon.HassModel\Internal\EntityAreaCache.cs
 FN:21,System.Void NetDaemon.HassModel.Internal.EntityAreaCache::Dispose()
 FNDA:2,System.Void NetDaemon.HassModel.Internal.EntityAreaCache::Dispose()
 DA:22,2
@@ -3717,7 +3717,7 @@ BRH:8
 FNF:8
 FNH:7
 end_of_record
-SF:C:\git\netdaemon\src\HassModel\NetDeamon.HassModel\Internal\EntityStateCache.cs
+SF:C:\git\netdaemon\src\HassModel\NetDaemon.HassModel\Internal\EntityStateCache.cs
 FN:24,System.Collections.Generic.IEnumerable`1<System.String> NetDaemon.HassModel.Internal.EntityStateCache::get_AllEntityIds()
 FNDA:0,System.Collections.Generic.IEnumerable`1<System.String> NetDaemon.HassModel.Internal.EntityStateCache::get_AllEntityIds()
 DA:25,0
@@ -3794,7 +3794,7 @@ BRH:6
 FNF:7
 FNH:5
 end_of_record
-SF:C:\git\netdaemon\src\HassModel\NetDeamon.HassModel\Internal\ExtensionMethods.cs
+SF:C:\git\netdaemon\src\HassModel\NetDaemon.HassModel\Internal\ExtensionMethods.cs
 FN:8,System.ValueTuple`2<System.String,System.String> NetDaemon.HassModel.Internal.NetDaemonExtensions::SplitAtDot(System.String)
 FNDA:0,System.ValueTuple`2<System.String,System.String> NetDaemon.HassModel.Internal.NetDaemonExtensions::SplitAtDot(System.String)
 DA:9,0
@@ -3811,7 +3811,7 @@ BRH:0
 FNF:1
 FNH:0
 end_of_record
-SF:C:\git\netdaemon\src\HassModel\NetDeamon.HassModel\Internal\FormatHelpers.cs
+SF:C:\git\netdaemon\src\HassModel\NetDaemon.HassModel\Internal\FormatHelpers.cs
 FN:5,System.Nullable`1<System.Double> NetDaemon.HassModel.Internal.FormatHelpers::ParseAsDouble(System.String)
 FNDA:0,System.Nullable`1<System.Double> NetDaemon.HassModel.Internal.FormatHelpers::ParseAsDouble(System.String)
 DA:6,0
@@ -3824,7 +3824,7 @@ BRH:0
 FNF:1
 FNH:0
 end_of_record
-SF:C:\git\netdaemon\src\HassModel\NetDeamon.HassModel\Internal\HassObjectMapper.cs
+SF:C:\git\netdaemon\src\HassModel\NetDaemon.HassModel\Internal\HassObjectMapper.cs
 FN:5,NetDaemon.HassModel.Entities.StateChange NetDaemon.HassModel.Internal.HassObjectMapper::Map(NetDaemon.Client.HomeAssistant.Model.HassStateChangedEventData,NetDaemon.HassModel.IHaContext)
 FNDA:4,NetDaemon.HassModel.Entities.StateChange NetDaemon.HassModel.Internal.HassObjectMapper::Map(NetDaemon.Client.HomeAssistant.Model.HassStateChangedEventData,NetDaemon.HassModel.IHaContext)
 DA:6,4
@@ -3897,7 +3897,7 @@ BRH:3
 FNF:5
 FNH:3
 end_of_record
-SF:C:\git\netdaemon\src\HassModel\NetDeamon.HassModel\Internal\QueuedObservable.cs
+SF:C:\git\netdaemon\src\HassModel\NetDaemon.HassModel\Internal\QueuedObservable.cs
 FN:32,System.IDisposable NetDaemon.HassModel.Internal.QueuedObservable`1::Subscribe(System.IObserver`1<T>)
 FNDA:6,System.IDisposable NetDaemon.HassModel.Internal.QueuedObservable`1::Subscribe(System.IObserver`1<T>)
 DA:33,6
@@ -3960,7 +3960,7 @@ BRH:7
 FNF:5
 FNH:5
 end_of_record
-SF:C:\git\netdaemon\src\HassModel\NetDeamon.HassModel\Internal\ScopedObservable.cs
+SF:C:\git\netdaemon\src\HassModel\NetDaemon.HassModel\Internal\ScopedObservable.cs
 FN:15,System.IDisposable NetDaemon.HassModel.Internal.ScopedObservable`1::Subscribe(System.IObserver`1<T>)
 FNDA:0,System.IDisposable NetDaemon.HassModel.Internal.ScopedObservable`1::Subscribe(System.IObserver`1<T>)
 DA:16,0
@@ -3984,7 +3984,7 @@ BRH:0
 FNF:3
 FNH:0
 end_of_record
-SF:C:\git\netdaemon\src\HassModel\NetDeamon.HassModel\Entities\Area.cs
+SF:C:\git\netdaemon\src\HassModel\NetDaemon.HassModel\Entities\Area.cs
 FN:10,System.String NetDaemon.HassModel.Entities.Area::get_Name()
 FNDA:0,System.String NetDaemon.HassModel.Entities.Area::get_Name()
 DA:11,0
@@ -3995,7 +3995,7 @@ BRH:0
 FNF:1
 FNH:0
 end_of_record
-SF:C:\git\netdaemon\src\HassModel\NetDeamon.HassModel\Entities\Entity.cs
+SF:C:\git\netdaemon\src\HassModel\NetDaemon.HassModel\Entities\Entity.cs
 FN:8,NetDaemon.HassModel.IHaContext NetDaemon.HassModel.Entities.Entity::get_HaContext()
 FNDA:0,NetDaemon.HassModel.IHaContext NetDaemon.HassModel.Entities.Entity::get_HaContext()
 DA:9,0
@@ -4085,7 +4085,7 @@ BRH:0
 FNF:19
 FNH:2
 end_of_record
-SF:C:\git\netdaemon\src\HassModel\NetDeamon.HassModel\Entities\EntityExtensions.cs
+SF:C:\git\netdaemon\src\HassModel\NetDaemon.HassModel\Entities\EntityExtensions.cs
 FN:12,System.Boolean NetDaemon.HassModel.Entities.EntityExtensions::IsOn(NetDaemon.HassModel.Entities.EntityState)
 FNDA:0,System.Boolean NetDaemon.HassModel.Entities.EntityExtensions::IsOn(NetDaemon.HassModel.Entities.EntityState)
 DA:13,0
@@ -4136,7 +4136,7 @@ BRH:3
 FNF:9
 FNH:1
 end_of_record
-SF:C:\git\netdaemon\src\HassModel\NetDeamon.HassModel\Entities\EntityState.cs
+SF:C:\git\netdaemon\src\HassModel\NetDaemon.HassModel\Entities\EntityState.cs
 FN:8,System.String NetDaemon.HassModel.Entities.EntityState::get_EntityId()
 FNDA:16,System.String NetDaemon.HassModel.Entities.EntityState::get_EntityId()
 DA:9,16
@@ -4189,7 +4189,7 @@ BRH:0
 FNF:11
 FNH:6
 end_of_record
-SF:C:\git\netdaemon\src\HassModel\NetDeamon.HassModel\Entities\EnumerableEntityExtensions.cs
+SF:C:\git\netdaemon\src\HassModel\NetDaemon.HassModel\Entities\EnumerableEntityExtensions.cs
 FN:11,System.IObservable`1<NetDaemon.HassModel.Entities.StateChange> NetDaemon.HassModel.Entities.EnumerableEntityExtensions::StateAllChanges(System.Collections.Generic.IEnumerable`1<NetDaemon.HassModel.Entities.Entity>)
 FNDA:0,System.IObservable`1<NetDaemon.HassModel.Entities.StateChange> NetDaemon.HassModel.Entities.EnumerableEntityExtensions::StateAllChanges(System.Collections.Generic.IEnumerable`1<NetDaemon.HassModel.Entities.Entity>)
 DA:12,0
@@ -4238,7 +4238,7 @@ BRH:0
 FNF:5
 FNH:0
 end_of_record
-SF:C:\git\netdaemon\src\HassModel\NetDeamon.HassModel\Entities\NumericEntity.cs
+SF:C:\git\netdaemon\src\HassModel\NetDaemon.HassModel\Entities\NumericEntity.cs
 FN:14,System.Nullable`1<System.Double> NetDaemon.HassModel.Entities.NumericEntity::get_State()
 FNDA:0,System.Nullable`1<System.Double> NetDaemon.HassModel.Entities.NumericEntity::get_State()
 DA:15,0
@@ -4298,7 +4298,7 @@ BRH:0
 FNF:14
 FNH:0
 end_of_record
-SF:C:\git\netdaemon\src\HassModel\NetDeamon.HassModel\Entities\NumericEntityState.cs
+SF:C:\git\netdaemon\src\HassModel\NetDaemon.HassModel\Entities\NumericEntityState.cs
 FN:11,System.Nullable`1<System.Double> NetDaemon.HassModel.Entities.NumericEntityState::get_State()
 FNDA:0,System.Nullable`1<System.Double> NetDaemon.HassModel.Entities.NumericEntityState::get_State()
 DA:12,0
@@ -4327,7 +4327,7 @@ BRH:0
 FNF:6
 FNH:0
 end_of_record
-SF:C:\git\netdaemon\src\HassModel\NetDeamon.HassModel\Entities\StateChange.cs
+SF:C:\git\netdaemon\src\HassModel\NetDaemon.HassModel\Entities\StateChange.cs
 FN:21,NetDaemon.HassModel.Entities.Entity NetDaemon.HassModel.Entities.StateChange::get_Entity()
 FNDA:8,NetDaemon.HassModel.Entities.Entity NetDaemon.HassModel.Entities.StateChange::get_Entity()
 DA:22,8
@@ -4366,7 +4366,7 @@ BRH:0
 FNF:8
 FNH:4
 end_of_record
-SF:C:\git\netdaemon\src\HassModel\NetDeamon.HassModel\ServiceTarget.cs
+SF:C:\git\netdaemon\src\HassModel\NetDaemon.HassModel\ServiceTarget.cs
 FN:13,NetDaemon.HassModel.Entities.ServiceTarget NetDaemon.HassModel.Entities.ServiceTarget::FromEntity(System.String)
 FNDA:0,NetDaemon.HassModel.Entities.ServiceTarget NetDaemon.HassModel.Entities.ServiceTarget::FromEntity(System.String)
 DA:14,0
@@ -4396,7 +4396,7 @@ BRH:0
 FNF:7
 FNH:5
 end_of_record
-SF:C:\git\netdaemon\src\HassModel\NetDeamon.HassModel\Entities\Core\LightAttributesBase.cs
+SF:C:\git\netdaemon\src\HassModel\NetDaemon.HassModel\Entities\Core\LightAttributesBase.cs
 FN:9,System.Nullable`1<System.Int32> NetDaemon.HassModel.Entities.Core.LightAttributesBase::get_Brightness()
 FNDA:0,System.Nullable`1<System.Int32> NetDaemon.HassModel.Entities.Core.LightAttributesBase::get_Brightness()
 DA:10,0
@@ -4455,7 +4455,7 @@ BRH:0
 FNF:17
 FNH:0
 end_of_record
-SF:C:\git\netdaemon\src\HassModel\NetDeamon.HassModel\Entities\Core\MediaPlayerAttributesBase.cs
+SF:C:\git\netdaemon\src\HassModel\NetDaemon.HassModel\Entities\Core\MediaPlayerAttributesBase.cs
 FN:7,System.String NetDaemon.HassModel.Entities.Core.MediaPlayerAttributesBase::get_AppId()
 FNDA:0,System.String NetDaemon.HassModel.Entities.Core.MediaPlayerAttributesBase::get_AppId()
 DA:8,0
